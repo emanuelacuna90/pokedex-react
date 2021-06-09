@@ -1,0 +1,194 @@
+/*--Button Buscador --*/
+body{
+  background-image: url('../image/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.form {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 45px;
+  z-index: 1;
+ left: 26px;
+}
+button{
+  border: none;
+  width: 1px;
+  background: none; 
+}
+.search img{
+  width: 42px;
+  cursor: pointer;
+  animation: girar infinite 10s linear;
+}
+@keyframes girar {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+.barra{
+  border-radius: 5px;
+  border: 2px solid black;  
+  text-align: center;
+  height: 35px;
+  background-color: rgb(245, 130, 23);
+  font-weight: bold;
+
+}
+
+/*--CONTENEDOR--*/
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.pokedex{
+  position: absolute;
+}
+
+.container-card{
+  position: absolute;
+}
+.contenedor{
+  position: absolute;
+  top: 115px;
+  left: -4p;
+  left: -260px;
+  width: 187px;
+  font-family: 'Zen Dots', cursive;
+}
+
+
+/*--Card pokemon--*/
+
+h1 {
+  font-size: 13px;
+  position: absolute;
+  top: 3px;
+}
+.contenedor img {
+  position: absolute;
+  top: 23px;
+  left: -11px;
+}
+
+.data {
+  position: absolute;
+  left: 80px;
+  font-size: 11px;
+  width: 135px;
+  top: 27px;
+  text-decoration: underline;
+}
+.data p{
+  margin: 0px;
+  padding: 2px;
+}
+
+ul{
+   
+    margin: 0px;
+    position: absolute;
+    left: -10px;
+    bottom: -37px;
+}
+/*--Error--*/
+.error {
+  width: 216px;
+  height: 148px;
+  position: absolute;
+  right: 49px;
+  top: 124px;
+  border-radius: 15px;
+}
+
+.error-message p{
+  position: absolute;
+  background: #0cff0c;
+  width: 156px;
+  top: 146px;
+  left: 92px;
+  font-family: 'Zen Dots', cursive;
+}
+
+/*--Responsive--
+@media (min-width: 624px){
+  --Pokedex--
+  .barra-movile{
+    display: none;
+  }
+
+}
+
+@media (max-width: 624px){
+.pokedex{
+  display: none;
+}
+.contenedor {
+  position: absolute;
+  top: 115px;
+  left: -4p;
+  left: -90px;
+  width: 200px;
+  font-family: 'Zen Dots', cursive;
+}
+
+.cont-movile{
+  
+    background-image: url('../image/card.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    margin: -45px;
+    height: 225px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.contenedor img {
+  position: absolute;
+  top: 0px;
+  left: -24px;
+}
+h1 {
+  font-size: 20px;
+  position: absolute;
+  top: -50px;
+  color: #eeb342;
+  left: -36px;
+  width: 287px;
+  -webkit-text-stroke: 1px blue;
+}
+.data {
+  position: absolute;
+  left: 16px;
+  font-size: 11px;
+  width: 170px;
+  top: 192px;
+  text-decoration: underline;
+  background: #eeb342;
+  border-radius: 10px;
+  padding: 5px;
+  height: 127px;
+}
+ul{
+  position: absolute;
+  left: 11px;
+  bottom: 21px;
+}
+.search img {
+  width: 42px;
+  cursor: pointer;
+  animation: girar infinite 10s linear;
+  position: absolute;
+  top: 41px;
+}
+}
+*/
